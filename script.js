@@ -78,7 +78,7 @@
   $('#sequence').click(function () {
     $('#box').animate({ width: '468px' }, 1500, function () {
       $('#box').animate({ fontSize: '40px' }, 1500, function () {
-        $('#box').animate({ left: '+=70px' }, 2000, function () {
+        $('#box').animate({ left: '+=700px' }, 2000, function () {
           $('#box').animate({ left: '-=400px' }, 2000), function () {
             $('#box').animate({
               fontSize: '30px',
